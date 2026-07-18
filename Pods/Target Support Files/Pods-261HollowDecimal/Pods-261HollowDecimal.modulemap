@@ -1,0 +1,6 @@
+framework module Pods_261HollowDecimal {
+  umbrella header "Pods-261HollowDecimal-umbrella.h"
+
+  export *
+  module * { export * }
+}

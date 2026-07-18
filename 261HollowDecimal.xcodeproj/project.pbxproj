@@ -3,33 +3,83 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3053FF0830092EE100577EAB /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 3053FEFB30092EE100577EAB /* privacy_policy.md */; };
+		3053FF0930092EE100577EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3053FEFE30092EE100577EAB /* Assets.xcassets */; };
+		3053FF0B30092EE100577EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3053FF0230092EE100577EAB /* LaunchScreen.storyboard */; };
+		3053FF0C30092EE100577EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3053FF0430092EE100577EAB /* Main.storyboard */; };
+		3053FF0D30092EE100577EAB /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FED230092EE100577EAB /* SharedComponents.swift */; };
+		3053FF0E30092EE100577EAB /* TravelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FED430092EE100577EAB /* TravelModels.swift */; };
+		3053FF0F30092EE100577EAB /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FED630092EE100577EAB /* AppDataStore.swift */; };
+		3053FF1030092EE100577EAB /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FED830092EE100577EAB /* AppLinks.swift */; };
+		3053FF1130092EE100577EAB /* DepthDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FED930092EE100577EAB /* DepthDesign.swift */; };
+		3053FF1230092EE100577EAB /* FeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEDA30092EE100577EAB /* FeedbackService.swift */; };
+		3053FF1330092EE100577EAB /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEDB30092EE100577EAB /* ViewModifiers.swift */; };
+		3053FF1430092EE100577EAB /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEDE30092EE100577EAB /* CurrencyView.swift */; };
+		3053FF1530092EE100577EAB /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEDF30092EE100577EAB /* CurrencyViewModel.swift */; };
+		3053FF1630092EE100577EAB /* DestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEE130092EE100577EAB /* DestinationsView.swift */; };
+		3053FF1730092EE100577EAB /* DestinationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEE230092EE100577EAB /* DestinationsViewModel.swift */; };
+		3053FF1830092EE100577EAB /* DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEE430092EE100577EAB /* DocumentsView.swift */; };
+		3053FF1930092EE100577EAB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEE630092EE100577EAB /* HomeView.swift */; };
+		3053FF1A30092EE100577EAB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEE830092EE100577EAB /* MainTabView.swift */; };
+		3053FF1B30092EE100577EAB /* ToolsHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEE930092EE100577EAB /* ToolsHubView.swift */; };
+		3053FF1C30092EE100577EAB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEEB30092EE100577EAB /* OnboardingView.swift */; };
+		3053FF1D30092EE100577EAB /* TravelPocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEED30092EE100577EAB /* TravelPocketView.swift */; };
+		3053FF1E30092EE100577EAB /* PrepListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEEF30092EE100577EAB /* PrepListView.swift */; };
+		3053FF1F30092EE100577EAB /* PrepListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEF030092EE100577EAB /* PrepListViewModel.swift */; };
+		3053FF2030092EE100577EAB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEF230092EE100577EAB /* SettingsView.swift */; };
+		3053FF2130092EE100577EAB /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEF430092EE100577EAB /* StatsView.swift */; };
+		3053FF2230092EE100577EAB /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEF630092EE100577EAB /* TripDetailView.swift */; };
+		3053FF2330092EE100577EAB /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEF730092EE100577EAB /* TripsView.swift */; };
+		3053FF2430092EE100577EAB /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEF830092EE100577EAB /* TripsViewModel.swift */; };
+		3053FF2530092EE100577EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEFD30092EE100577EAB /* AppDelegate.swift */; };
+		3053FF2630092EE100577EAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FEFF30092EE100577EAB /* ContentView.swift */; };
+		3053FF2730092EE100577EAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF0530092EE100577EAB /* SceneDelegate.swift */; };
+		3053FF2830092EE100577EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF0630092EE100577EAB /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		16D5D60FADB956150AB86610 /* Pods_261HollowDecimal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_261HollowDecimal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3053FD2F3009235A00577EAB /* 261HollowDecimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 261HollowDecimal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3053FED230092EE100577EAB /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		3053FED430092EE100577EAB /* TravelModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelModels.swift; sourceTree = "<group>"; };
+		3053FED630092EE100577EAB /* AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		3053FED830092EE100577EAB /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		3053FED930092EE100577EAB /* DepthDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthDesign.swift; sourceTree = "<group>"; };
+		3053FEDA30092EE100577EAB /* FeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackService.swift; sourceTree = "<group>"; };
+		3053FEDB30092EE100577EAB /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		3053FEDE30092EE100577EAB /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		3053FEDF30092EE100577EAB /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
+		3053FEE130092EE100577EAB /* DestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsView.swift; sourceTree = "<group>"; };
+		3053FEE230092EE100577EAB /* DestinationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsViewModel.swift; sourceTree = "<group>"; };
+		3053FEE430092EE100577EAB /* DocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsView.swift; sourceTree = "<group>"; };
+		3053FEE630092EE100577EAB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3053FEE830092EE100577EAB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3053FEE930092EE100577EAB /* ToolsHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsHubView.swift; sourceTree = "<group>"; };
+		3053FEEB30092EE100577EAB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3053FEED30092EE100577EAB /* TravelPocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPocketView.swift; sourceTree = "<group>"; };
+		3053FEEF30092EE100577EAB /* PrepListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepListView.swift; sourceTree = "<group>"; };
+		3053FEF030092EE100577EAB /* PrepListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepListViewModel.swift; sourceTree = "<group>"; };
+		3053FEF230092EE100577EAB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3053FEF430092EE100577EAB /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		3053FEF630092EE100577EAB /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		3053FEF730092EE100577EAB /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		3053FEF830092EE100577EAB /* TripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewModel.swift; sourceTree = "<group>"; };
+		3053FEFB30092EE100577EAB /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		3053FEFD30092EE100577EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3053FEFE30092EE100577EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3053FEFF30092EE100577EAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3053FF0030092EE100577EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3053FF0130092EE100577EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3053FF0330092EE100577EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3053FF0530092EE100577EAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3053FF0630092EE100577EAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D473FCC0375CCE28BC2A10E3 /* Pods-261HollowDecimal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-261HollowDecimal.release.xcconfig"; path = "Target Support Files/Pods-261HollowDecimal/Pods-261HollowDecimal.release.xcconfig"; sourceTree = "<group>"; };
+		F001E4048FE6538B44A661EC /* Pods-261HollowDecimal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-261HollowDecimal.debug.xcconfig"; path = "Target Support Files/Pods-261HollowDecimal/Pods-261HollowDecimal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3053FD413009235B00577EAB /* Exceptions for "261HollowDecimal" folder in "261HollowDecimal" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 3053FD2E3009235A00577EAB /* 261HollowDecimal */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3053FD313009235A00577EAB /* 261HollowDecimal */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				3053FD413009235B00577EAB /* Exceptions for "261HollowDecimal" folder in "261HollowDecimal" target */,
-			);
-			path = 261HollowDecimal;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3053FD2C3009235A00577EAB /* Frameworks */ = {
@@ -45,8 +95,10 @@
 		3053FD263009235A00577EAB = {
 			isa = PBXGroup;
 			children = (
-				3053FD313009235A00577EAB /* 261HollowDecimal */,
+				3053FF0730092EE100577EAB /* 261HollowDecimal */,
 				3053FD303009235A00577EAB /* Products */,
+				85467636A9CFD0BCFDE757C1 /* Pods */,
+				9A96AF0AE273F9DE3C46CA7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +110,207 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3053FED330092EE100577EAB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3053FED230092EE100577EAB /* SharedComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3053FED530092EE100577EAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3053FED430092EE100577EAB /* TravelModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3053FED730092EE100577EAB /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				3053FED630092EE100577EAB /* AppDataStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		3053FEDC30092EE100577EAB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3053FED830092EE100577EAB /* AppLinks.swift */,
+				3053FED930092EE100577EAB /* DepthDesign.swift */,
+				3053FEDA30092EE100577EAB /* FeedbackService.swift */,
+				3053FEDB30092EE100577EAB /* ViewModifiers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3053FEDD30092EE100577EAB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3053FED330092EE100577EAB /* Components */,
+				3053FED530092EE100577EAB /* Models */,
+				3053FED730092EE100577EAB /* Persistence */,
+				3053FEDC30092EE100577EAB /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3053FEE030092EE100577EAB /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEDE30092EE100577EAB /* CurrencyView.swift */,
+				3053FEDF30092EE100577EAB /* CurrencyViewModel.swift */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		3053FEE330092EE100577EAB /* Destinations */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEE130092EE100577EAB /* DestinationsView.swift */,
+				3053FEE230092EE100577EAB /* DestinationsViewModel.swift */,
+			);
+			path = Destinations;
+			sourceTree = "<group>";
+		};
+		3053FEE530092EE100577EAB /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEE430092EE100577EAB /* DocumentsView.swift */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		3053FEE730092EE100577EAB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEE630092EE100577EAB /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3053FEEA30092EE100577EAB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEE830092EE100577EAB /* MainTabView.swift */,
+				3053FEE930092EE100577EAB /* ToolsHubView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3053FEEC30092EE100577EAB /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEEB30092EE100577EAB /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3053FEEE30092EE100577EAB /* Pocket */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEED30092EE100577EAB /* TravelPocketView.swift */,
+			);
+			path = Pocket;
+			sourceTree = "<group>";
+		};
+		3053FEF130092EE100577EAB /* PrepList */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEEF30092EE100577EAB /* PrepListView.swift */,
+				3053FEF030092EE100577EAB /* PrepListViewModel.swift */,
+			);
+			path = PrepList;
+			sourceTree = "<group>";
+		};
+		3053FEF330092EE100577EAB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEF230092EE100577EAB /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3053FEF530092EE100577EAB /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEF430092EE100577EAB /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		3053FEF930092EE100577EAB /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEF630092EE100577EAB /* TripDetailView.swift */,
+				3053FEF730092EE100577EAB /* TripsView.swift */,
+				3053FEF830092EE100577EAB /* TripsViewModel.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		3053FEFA30092EE100577EAB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEE030092EE100577EAB /* Currency */,
+				3053FEE330092EE100577EAB /* Destinations */,
+				3053FEE530092EE100577EAB /* Documents */,
+				3053FEE730092EE100577EAB /* Home */,
+				3053FEEA30092EE100577EAB /* Main */,
+				3053FEEC30092EE100577EAB /* Onboarding */,
+				3053FEEE30092EE100577EAB /* Pocket */,
+				3053FEF130092EE100577EAB /* PrepList */,
+				3053FEF330092EE100577EAB /* Settings */,
+				3053FEF530092EE100577EAB /* Stats */,
+				3053FEF930092EE100577EAB /* Trips */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3053FEFC30092EE100577EAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEFB30092EE100577EAB /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3053FF0730092EE100577EAB /* 261HollowDecimal */ = {
+			isa = PBXGroup;
+			children = (
+				3053FEDD30092EE100577EAB /* Core */,
+				3053FEFA30092EE100577EAB /* Features */,
+				3053FEFC30092EE100577EAB /* Resources */,
+				3053FEFD30092EE100577EAB /* AppDelegate.swift */,
+				3053FEFE30092EE100577EAB /* Assets.xcassets */,
+				3053FEFF30092EE100577EAB /* ContentView.swift */,
+				3053FF0030092EE100577EAB /* Info.plist */,
+				3053FF0230092EE100577EAB /* LaunchScreen.storyboard */,
+				3053FF0430092EE100577EAB /* Main.storyboard */,
+				3053FF0530092EE100577EAB /* SceneDelegate.swift */,
+				3053FF0630092EE100577EAB /* ViewController.swift */,
+			);
+			path = 261HollowDecimal;
+			sourceTree = "<group>";
+		};
+		85467636A9CFD0BCFDE757C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F001E4048FE6538B44A661EC /* Pods-261HollowDecimal.debug.xcconfig */,
+				D473FCC0375CCE28BC2A10E3 /* Pods-261HollowDecimal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A96AF0AE273F9DE3C46CA7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16D5D60FADB956150AB86610 /* Pods_261HollowDecimal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +318,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3053FD423009235B00577EAB /* Build configuration list for PBXNativeTarget "261HollowDecimal" */;
 			buildPhases = (
+				8910D8AA6AF12273AF23B695 /* [CP] Check Pods Manifest.lock */,
 				3053FD2B3009235A00577EAB /* Sources */,
 				3053FD2C3009235A00577EAB /* Frameworks */,
 				3053FD2D3009235A00577EAB /* Resources */,
@@ -73,12 +327,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				3053FD313009235A00577EAB /* 261HollowDecimal */,
-			);
 			name = 261HollowDecimal;
-			packageProductDependencies = (
-			);
 			productName = 261HollowDecimal;
 			productReference = 3053FD2F3009235A00577EAB /* 261HollowDecimal.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +348,7 @@
 				};
 			};
 			buildConfigurationList = 3053FD2A3009235A00577EAB /* Build configuration list for PBXProject "261HollowDecimal" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +356,6 @@
 				Base,
 			);
 			mainGroup = 3053FD263009235A00577EAB;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 3053FD303009235A00577EAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +370,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3053FF0830092EE100577EAB /* privacy_policy.md in Resources */,
+				3053FF0930092EE100577EAB /* Assets.xcassets in Resources */,
+				3053FF0B30092EE100577EAB /* LaunchScreen.storyboard in Resources */,
+				3053FF0C30092EE100577EAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8910D8AA6AF12273AF23B695 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-261HollowDecimal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3053FD2B3009235A00577EAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3053FF0D30092EE100577EAB /* SharedComponents.swift in Sources */,
+				3053FF0E30092EE100577EAB /* TravelModels.swift in Sources */,
+				3053FF0F30092EE100577EAB /* AppDataStore.swift in Sources */,
+				3053FF1030092EE100577EAB /* AppLinks.swift in Sources */,
+				3053FF1130092EE100577EAB /* DepthDesign.swift in Sources */,
+				3053FF1230092EE100577EAB /* FeedbackService.swift in Sources */,
+				3053FF1330092EE100577EAB /* ViewModifiers.swift in Sources */,
+				3053FF1430092EE100577EAB /* CurrencyView.swift in Sources */,
+				3053FF1530092EE100577EAB /* CurrencyViewModel.swift in Sources */,
+				3053FF1630092EE100577EAB /* DestinationsView.swift in Sources */,
+				3053FF1730092EE100577EAB /* DestinationsViewModel.swift in Sources */,
+				3053FF1830092EE100577EAB /* DocumentsView.swift in Sources */,
+				3053FF1930092EE100577EAB /* HomeView.swift in Sources */,
+				3053FF1A30092EE100577EAB /* MainTabView.swift in Sources */,
+				3053FF1B30092EE100577EAB /* ToolsHubView.swift in Sources */,
+				3053FF1C30092EE100577EAB /* OnboardingView.swift in Sources */,
+				3053FF1D30092EE100577EAB /* TravelPocketView.swift in Sources */,
+				3053FF1E30092EE100577EAB /* PrepListView.swift in Sources */,
+				3053FF1F30092EE100577EAB /* PrepListViewModel.swift in Sources */,
+				3053FF2030092EE100577EAB /* SettingsView.swift in Sources */,
+				3053FF2130092EE100577EAB /* StatsView.swift in Sources */,
+				3053FF2230092EE100577EAB /* TripDetailView.swift in Sources */,
+				3053FF2330092EE100577EAB /* TripsView.swift in Sources */,
+				3053FF2430092EE100577EAB /* TripsViewModel.swift in Sources */,
+				3053FF2530092EE100577EAB /* AppDelegate.swift in Sources */,
+				3053FF2630092EE100577EAB /* ContentView.swift in Sources */,
+				3053FF2730092EE100577EAB /* SceneDelegate.swift in Sources */,
+				3053FF2830092EE100577EAB /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		3053FF0230092EE100577EAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3053FF0130092EE100577EAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3053FF0430092EE100577EAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3053FF0330092EE100577EAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		3053FD433009235B00577EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F001E4048FE6538B44A661EC /* Pods-261HollowDecimal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +472,40 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 261HollowDecimal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hollow Decimal";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-61HollowDecimal";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lor.h0ll0wd3c1m4l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3053FD443009235B00577EAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D473FCC0375CCE28BC2A10E3 /* Pods-261HollowDecimal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +513,34 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 261HollowDecimal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hollow Decimal";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-61HollowDecimal";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lor.h0ll0wd3c1m4l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
